@@ -1,0 +1,16 @@
+name: default-environment
+channels:
+  - https://prefix.dev/emscripten-forge-4x
+  - https://prefix.dev/conda-forge
+dependencies:
+  # A Jupyter kernel for Python
+  - xeus-python
+  - numpy
+  - pandas
+  - matplotlib-base
+  - ipympl
+  - scipy
+  # - jupyterlab-slideshow # required httpcore
+  - pip:
+    - laby-jupyter-python
+    - jupyterlab-myst >= 2.6 # depends on jupyter-server if specified as conda package
