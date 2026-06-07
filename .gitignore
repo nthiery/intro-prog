@@ -1,0 +1,6 @@
+# Python and Jupyter temporary directories
+
+.ipynb_checkpoints
+.virtual_documents
+__pycache__
+.lrs.json
